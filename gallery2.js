@@ -3,7 +3,7 @@ var i1=0;
         // Добавьте свои картинки через запятую
         var imgs1 = new Array( 'assets/img/1.jpg','assets/img/2.jpg' );
         function imgsrc1() {
-            i++;
+            i1++;
             image.src=imgs[i];
         }
 
@@ -12,6 +12,6 @@ var i2=0;
         // Добавьте свои картинки через запятую
         var imgs2 = new Array( 'assets/img/1.jpg','assets/img/2.jpg' );
         function imgsrc2() {
-            i++;
+            i2++;
             image.src=imgs[i];
         }
