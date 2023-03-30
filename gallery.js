@@ -6,7 +6,7 @@ const images = [
 // Индекс нынешней картинки
 let currentImageIndex = 0;
 
-function switchingImage(next) {
+function switchImage(next) {
     // Получаем индекс новой картинки 
     currentImageIndex += next;
 
