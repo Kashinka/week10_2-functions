@@ -11,11 +11,9 @@
     
     <h1 class="header">Котята</h1>
 
-    <img src="./assets/img/1.jpg" alt="" class="img">
-    <img src="./assets/img/2.jpg" alt="" class="img">
-
-    <button>Предыдущая</button>
-    <button>Следующая</button>
+    <button onclick="switchingImage(-1)">Предыдущая</button>
+    <img src="./assets/img/1.jpg" alt="cat1" id="image">
+    <button onclick="switchingImage(1)">Следующая</button>
 
     <script src="./gallery.js"></script>
 </body>
