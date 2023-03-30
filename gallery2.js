@@ -4,7 +4,7 @@ var i1=0;
         var imgs1 = new Array( 'assets/img/1.jpg','assets/img/2.jpg' );
         function imgsrc1() {
             i1++;
-            image.src=imgs[i];
+            image1.src=imgs1[i];
         }
 
 var i2=0;
@@ -13,5 +13,5 @@ var i2=0;
         var imgs2 = new Array( 'assets/img/1.jpg','assets/img/2.jpg' );
         function imgsrc2() {
             i2++;
-            image.src=imgs[i];
+            image2.src=imgs2[i];
         }
